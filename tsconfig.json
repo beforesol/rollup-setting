@@ -1,5 +1,10 @@
 {
   "compileOnSave": true,
+  "baseUrl": "./src",
+  "paths": {
+    "@src/*": ["./*"],
+    "@assets/*": ["./assets/*"],
+  },
   "compilerOptions": {
     "allowSyntheticDefaultImports": true,
     "alwaysStrict": true,
